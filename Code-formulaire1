@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Formulaire d'adhésion</title>
+
+<style type="text/css" >
+
+<body {background:url(adeisoimage.jpg); margin:0 ; padding:0; }
+
+#formWrapper {width:1000px; background:#AFC8DE; margin:2em auto 0 auto; padding:2em 0 2em 0; border:solid 25px #F1F1F1 ;}
+
+form { width:900px; margin:0 auto 0 auto;}
+
+label {display:block; margin:0.3em 0 0.3em 2em; font-family:Arial, Helvetica, sans-serif; color:#888888; font-size:1em; }
+
+input {width:500px; margin:0 0 0 2em;}
+textarea {width:500px; margin:0 0 0 2em;}
+fieldset {border:none; background:#F1F1F1; padding:0 0 2em 0; }
+fieldset.first {background:#F1F1F1 url('formBg.jpg') no-repeat;}
+
+.labelOne {margin-top:1em;}
+.btn {width:125px; margin:0 0 0 2em; font-family:Arial, Helvetica, sans-serif; color:#555555; font-weight:bold;}
+
+form h2 {margin:1em 0 1.5em 2em; font-size:1.2em; font-family:Arial, Helvetica, sans-serif; color:#CDCDCD; font-weight:bold;}
+
+
+
+</style>
+
+</head>
+
+<body>
+<p>   <img src="adeiso.gif" width="208" height="58" align="middle" /></p>
+<p>
+<div id="formWrapper">
+  
+</p>
+<form style="animation:cubic-bezier(x1,y1,x2,y2)">
+  
+  <fieldset class="first">
+
+<h2> Formulaire d'adhésion </h2>
+
+<p>
+  <label class="labelOne" for="name"> Nom</label>
+  <input name="Nom"/>
+</p>
+<p>&nbsp;</p>
+<p>
+  
+  <label for="Prénom"> Prénom </label>
+  <input name="Prénom"/>
+</p>
+<p>&nbsp;</p>
+<p>
+  
+  
+  
+  <label for="Entreprise"> Entreprise </label>
+  <input name="Entreprise"/>
+</p>
+
+  </fieldset>
+
+
+<fieldset>
+ 
+<input class="btn" name="submit" type="submit" value="Adhérer" />
+
+<input class="btn" name="reset" type="reset" value="annuler" />
+
+</fieldset> 
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
